@@ -1,0 +1,1482 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Marhey:wght@300..700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    /* font-family: "Poppins", sans-serif; */
+    /* 
+        font-family: "Cairo", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 900;
+     */
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+   
+
+}
+     
+
+
+body{
+    background-color: #111317;
+   
+    
+
+}
+
+/* _____________standards__________________ */
+
+.btn{
+    padding: 1rem 2rem;
+    
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: #ffff;
+    background-color: #d79447;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover{
+    background-color: #f9ac5a;
+}
+
+.main a{
+    font-family: "Cairo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    
+}
+.sec-cont .content h3 {
+    font-family: "Cairo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+}
+.sec-cont .content p {
+    font-family: "Cairo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+/* _________________header_________________________ */
+
+header{
+    padding: 10px 200px;
+}
+
+header nav{
+
+    /* max-width: 1200px; */
+    /* margin: auto; */
+    padding: 2rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .logo{
+
+    max-width: 130px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #d79447;
+    font-size: 3em;
+    padding-left: 26px;
+    text-transform: uppercase;
+    border-bottom: 1px solid burlywood;
+    
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+
+}
+
+
+ul li a{
+    padding: 1.5rem 2.5rem;
+    text-decoration: none;
+    color: #ffff;
+    transform: scale(1);
+    
+}
+
+.head ul li a:hover{
+    border-bottom: 1px solid #f9ac5a;
+    width: 50%;
+    transition: 0.3s ease;
+}
+
+/* __________________________end of header */
+
+
+
+
+
+/* _________________________section main */
+
+
+.main{
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    background:url(imgs/clients/shahan-pc.jpg)no-repeat;
+    
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+.main-sec-content{
+    max-width: 35%;
+    margin-top: 10%;
+    margin-left: 18%;
+    padding: 15px;
+    position: relative;
+}
+
+.main .blug-2{
+    position: absolute;
+    box-shadow: 0 0 1000px 50px #f9ac54;
+    z-index: -1;
+    right: 18%;
+    bottom: 11%;
+
+
+}
+    
+
+.main-img{
+    position: absolute;
+    right: 15%;
+    z-index: 999;
+    max-width: 28%;
+}
+
+.main-sec-content h4{
+    
+
+    font-size: 2.1em;
+    text-transform: uppercase;
+    color: #f9ac54;
+}
+
+.main-sec-content h1{
+    font-size: 4.7em;
+    line-height: 1.2em;
+    color: white;
+}
+
+
+.main-sec-content p{
+    display: inline-block;
+    margin-bottom: 30px;
+    color: #ffff;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    /* font-size: 0.8em; */
+    font-family: "Cairo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+
+}
+
+
+.main-sec-content .make{
+    color: #eee;
+    border-left: 2px solid burlywood;
+    padding-left: 14px;
+
+}
+
+
+h2{
+    padding-bottom: 1em;
+    padding-top: 1em;
+    font-size: 1.9em;
+    text-transform: uppercase;
+    color: white;
+    
+    
+
+}
+
+
+
+
+
+
+
+
+/* ______________________________________programmes secion_________________ */
+
+.sec-cont h2{
+    max-width: 700px;
+    border-top: 1px solid #d79447;
+
+}
+
+.prog-cards{
+    margin-top: 6%;
+    margin-left: 19%;
+}
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.card-1{
+    background-color: #d79447;
+    
+    width: 25.25em;
+    box-shadow: 0 5px 25px rgba(1, 1, 1, 0.233);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 25px;
+    transition: 0.7s ease;
+    text-align: center;
+}
+
+.sec-cont .card-1{
+    box-shadow: rgb(93 68 50) 0px 50px 100px -20px, rgb(157 46 46) 0px 30px 60px -30px;
+}
+
+
+.card-1:hover{
+    transform: scale(1.1);
+    background-color: #111317;
+    border: 1px solid #d79447;
+}
+
+
+.c-icon{
+    font-size: 8em;
+    color: white;
+}
+.fa-crown:before{
+    content: "\f521";
+    color: gold;
+    
+}
+.mega{
+    padding-top: 30px;
+}
+
+h3{
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+    color: darkred;
+}
+
+.c-p{
+    color: white;
+}
+
+table{
+    color: white;
+    font-size: 2em;
+    padding-top: 10%;
+    font-family: "Cairo", sans-serif;
+    font-optical-sizing: auto;
+}
+
+table td{
+    padding: 8px;
+    text-align: center;
+}
+
+
+/* ____________________end of prog sec */
+
+
+
+
+
+
+
+
+
+/* ______________________client section_____________________ */
+
+
+
+.cleint-sec{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+   
+    border-bottom: 1px solid wheat;
+ 
+    background-color: #051525;
+    flex-direction: column;
+   
+}
+
+.client-para{
+    padding-top: 10%;
+    padding-left: 15%;
+   
+    
+
+}
+.client-para p{
+    color: wheat;
+    font-size: 1.2em;
+    width: 400px;
+
+}
+
+.client-para span{
+    font-size: 2.5em;
+    padding-right: 7px;
+}
+    
+
+
+
+
+.client-content{
+    
+    display: flex;
+    flex-direction: column;
+   
+    align-items: center;
+    padding-top: 8%;
+    
+    border: 0.5px solid white;
+    margin: 9%;
+    border-radius: 15px;
+}
+
+.client-content .char-card{
+    
+  
+    border-radius: 20px;
+    background-color: burlywood;
+    width: 40%;
+    margin-bottom: 60px;
+}
+   
+.c1 , .c2 , .c3 ,.c4 , .c5 , .c6 , .c7{
+   
+    border-radius: 20px;
+   
+
+
+}
+
+
+.char-image{
+    transition: 0.7s ease;
+
+
+}
+
+.char-image:hover{
+    transform: scale(1.1);
+    
+
+
+}
+
+
+
+.char-card .char-image img{
+    border: 1px solid white;
+    border-radius: 23px;
+    width: 100%;
+}
+
+.char-info{
+    padding: 0.9em 1em;
+}
+.names{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    align-items: center;
+   
+    
+    
+}
+.names span , .names a{
+    font-family: "Cairo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+}
+
+
+/* __________________________________________end of client sec */
+
+
+
+
+
+
+
+
+
+
+
+
+/* ________________________________contact section__________________________________ */
+.cards-contact h2{
+    margin-left: 19%;
+}
+
+.cards-contact{
+    background-color: darkslategray;
+}
+   
+
+.cards-contact .card-1{
+    justify-content: center;
+    width: 21.25em;
+
+}
+.cards-contact .card-1 .info i {
+    color: darkslategray;
+    padding: 7px;
+    font-size: 1.5em;
+}
+.cards-contact .card-1:hover{
+    color: #fff;
+}
+.cards-contact .card-1 p{
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+.cards-contact .card-1 p:hover{
+    overflow: visible;
+    
+
+}
+.cards-contact .content{
+    justify-content: center;
+    position: relative;
+    
+    
+}
+
+
+
+
+.blug-1{
+    position: absolute;
+    box-shadow: 0 0 1000px 50px #f9ac54;
+    z-index: -1;
+    right: 81%;
+}
+
+
+
+
+
+
+
+/* the wave animation */
+
+.wave-parent{
+    position: relative;
+    width: 100%;
+    background: transparent;
+    overflow: hidden;
+    height: 13vh;
+    margin-top: 26px;
+
+}
+
+.wave-parent .wave {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: url(imgs/wave.png);
+    background-size: 1000px 100px;
+    /* background-size: 1000px 155px; */
+} 
+.wave-parent .wave.wave1{
+    animation: animate 30s linear infinite;
+    z-index: 1000;
+    opacity: 1;
+    animation-delay: 0s ;
+    bottom: 0;
+}
+.wave-parent .wave.wave2{
+    animation: animate2 15s linear infinite;
+    z-index: 999;
+    opacity: 0.5;
+    animation-delay: -5s ;
+    bottom: 10px;
+}
+.wave-parent .wave.wave3{
+    animation: animate 10s linear infinite;
+    z-index: 998;
+    opacity: 0.2;
+    animation-delay: -2s ;
+    bottom: 15px;
+}
+
+
+
+#wave-parent2{
+    background-color: darkslategray;
+    margin-top: 0;
+}
+/* _________________________________end of contact section */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* _______________________footer_____________________________ */
+
+footer{
+    position: relative;
+    width: 100%;
+    background: #fff;
+    min-height: 100px;
+    padding: 20px 50px;
+    /* margin-top: 50px; */
+    flex-direction: column;
+    min-height: 60vh;
+
+}
+
+footer .icon , footer .menu{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10p 0;
+    padding-top: 74%;
+
+}
+
+footer .icon li , footer .menu li{
+    list-style: none;
+    
+}
+footer .icon li a {
+    font-size: 2em;
+    color: black;
+    margin: 0 10px;
+    display: inline;
+    transition: 0.5s;
+    
+}
+footer .menu li a {
+    font-size: 1em;
+    color: black;
+    margin: 0 10px;
+    display: inline;
+    transition: 0.5s;
+    text-decoration: none;
+
+}
+
+.footer-para{
+    font-size: 1.2em;
+    padding-top: 30px;
+}
+.footer-p1{
+    font-size: 2em;
+    text-transform: capitalize;
+}
+
+.footer-a{
+    font-family: "Cairo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    color: black;
+    display: inline-block;
+    margin-top: 20px;
+    background-color: #d79447;
+    padding: 20px;
+    border-radius: 36px;
+    transition: 0.4 ease;
+   
+    
+}
+
+#footer-icon{
+    font-size: 1.5em;
+    padding-left: 11px;
+    /* background-color: #d79447; */
+    padding: 17px 16px 17px 16px;
+    border-radius: 24px;
+    margin-left: -8px;
+    margin-top: 0px;
+    transition: 0.4 ease;
+   
+}
+    
+
+.footer-a:hover , #footer-icon:hover{
+    transform: scale(1.3);
+
+}
+
+
+
+
+
+
+
+
+
+/* new footer */
+.b-blex {
+    display: none;
+}
+
+footer{
+    position: relative;
+    width: 100%;
+    background: #fff;
+    min-height: 100px;
+    padding: 20px 50px;
+    /* margin-top: 50px; */
+    flex-direction: column;
+    min-height: 60vh;
+
+}
+.f-flex .contactme-khaled{
+   
+    padding: 17px 13px 17px 13px;
+    border-top: 1px solid #d79447;
+    border-bottom: 1px solid #d79447;
+    border-radius: 22px;
+    width: 36%;
+
+   
+
+}
+.f-flex .contac {
+    font-size: 2em;
+    text-transform: capitalize;
+    text-align: center;
+    display: inherit;
+
+}
+.f-flex .contac-icon{
+    padding-top: 27px;
+    padding-left: 22px;
+
+}
+
+.f-flex .contac-icon p {
+    display: inline-block;
+    padding-left: 13px;
+}
+.f-flex .contac-icon .email{
+    padding-top: 9px;
+}
+
+
+.f-flex2 .icon , footer .menu{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10p 0;
+    padding-top: 12px;
+    flex-direction: column;
+    border-top: 1px solid #d79447;
+    border-radius: 21px;
+   
+}
+
+footer .f-flex2 .icon li , footer .menu li{
+    list-style: none;
+    padding-bottom: 20px;
+    
+}
+footer .f-flex2 .icon li a {
+    font-size: 2em;
+    color: black;
+    margin: 0 10px;
+    display: inline;
+    transition: 0.5s;
+    
+}
+footer .f-flex2 .menu li a {
+    font-size: 1em;
+    color: black;
+    margin: 0 10px;
+    display: inline;
+    transition: 0.5s;
+    text-decoration: none;
+
+}
+
+.border .footer-para{
+    font-size: 1.2em;
+    padding-top: 30px;
+    padding-left: 7%;
+}
+.footer-p1{
+    font-size: 2em;
+    text-transform: capitalize;
+    margin-left: 5%;
+}
+
+.footer-work{
+    margin-left: 5%;
+}
+
+.f-flex2 .footer-a{
+    font-family: "Cairo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    color: black;
+    display: inline-block;
+    margin-top: 20px;
+    background-color: #d79447;
+    padding: 20px;
+    border-radius: 36px;
+    transition: 0.4 ease;
+   
+    
+}
+
+.f-flex2 #footer-icon{
+    font-size: 1.5em;
+    padding-left: 11px;
+    /* background-color: #d79447; */
+    padding: 17px 16px 17px 16px;
+    border-radius: 24px;
+    margin-left: -8px;
+    margin-top: 0px;
+    transition: 0.4 ease;
+   
+}
+.f-flex2 .icon i{
+    color: firebrick;
+}
+.f-flex2 .arrow-icon{
+    font-size: 2.5em;
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 6px;
+    position: absolute;
+    top: -34%;
+    right: 46%;
+
+}
+    
+
+.footer-a:hover , #footer-icon:hover{
+    transform: scale(1.3);
+
+}
+
+.f-flex{
+    display: flex;
+    justify-content: space-between;
+   
+    padding: 7%;
+   
+    padding-top: 9%;
+    padding-bottom: 9%;
+}
+.border{
+    margin: 3%;
+    border: 1px solid #0000ff1f;
+    border-radius: 35px;
+    background-color: #f5f5dc5c;
+    padding-bottom: 25px;
+
+}
+.f-flex2{
+    width: 32%;
+    position: relative;
+
+}
+
+/* ------------------end of footer section */
+
+
+
+
+
+/* _____________________________enf of footer */
+
+
+
+
+
+
+@keyframes animate{
+    0%{
+        background-position-x:0 ;
+    }
+    100%{
+        background-position-x:1000px ;
+    }
+
+}
+@keyframes animate2 {
+    0%{
+        background-position-x:0 ;
+    }
+    100%{
+        background-position-x:-1000px ;
+    }
+
+}
+
+
+
+@media(max-width:1024px){
+    /* header{
+        padding: 10px 62px;
+    }
+    .head ul{
+        padding-left:50px;
+    } */
+    /* .head img{
+        width: 130px;
+
+    } */
+    header{
+        padding:0;
+    }
+    .head ul{
+        padding-left: 0;
+    }
+    header nav{
+        padding: 1em 0;
+    }
+    nav .logo{
+        max-width: fit-content ;
+        padding-left: 0;
+        font-size: 2.5em;
+    }
+
+    .main{
+        background-size: auto;
+    }
+
+    .c1, .c2, .c3, .c4, .c5{
+        position: static;
+    }
+
+    .f-flex .contactme-khaled{
+        width: 72%;
+    }
+    .f-flex .contac-icon{
+        padding-top: 27px;
+        padding-left: 0;
+    }
+    .f-flex .phone , .f-flex .email{
+        display: flex;
+        flex-direction: column;
+    }
+    .f-flex .phone i , .f-flex .email i{
+        padding-bottom: 10px;
+        margin: 0 auto;
+    }
+
+    .f-flex .contac-icon p{
+        display: inline-block;
+        padding-left: 13px;
+        margin: 0 auto;
+    }
+
+    .f-flex2{
+        width: 20%;
+    }
+    .f-flex2 .arrow-icon {
+        right: 25%;
+        top: -29%;
+    }
+   
+        
+        
+
+    
+    .cleint-sec{
+        border-bottom: 0 solid black;
+        
+       
+    }
+    .client-para{
+        padding-left: 0;
+        margin: 0 auto;
+    }
+    .cards-contact{
+        /* margin-top: 10%; */
+        border-top: 1px solid burlywood;
+    }
+
+    .client-content{
+        position: relative;
+    }
+    .client-content .char-card{
+        
+        position: inherit;
+        border-radius: 20px;
+        background-color: burlywood;
+       
+    
+    }
+    
+    .char-card , .c1 , .c2 , .c3 ,.c4{
+        position: static;
+        
+        border-radius: 20px;
+        background-color: burlywood;
+        transition: 0.7s ease;
+    }
+
+    .char-card .c1{
+        right: 307px;
+        top: 112px;
+        z-index: -4;
+    }
+        
+    
+    
+        
+    
+    .char-card  img{
+        width: 300px;
+      
+    }
+    
+    .char-card .c2{
+        
+        right: 536px;
+        top: 254px;
+        z-index: -2;
+    }
+    
+       
+    
+        
+    
+    
+    
+    .char-card .c3{
+        right: 265px;
+        top: 315px;
+        z-index: -3;
+    }
+    .char-card .c4{
+        right: 551px;
+        
+        top: 418px;
+    }
+
+ /* the first */
+    .content{
+        
+        align-items: center;
+        padding-left: 38px;
+    }
+    .cleint-sec{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .client-para{
+        padding-left: 0;
+        padding: 30px;
+    }
+
+    .client-para p{
+        width: auto;
+    }
+
+    .client-content{
+        position: static;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .char-card{
+        position: static;
+        border-radius: 20px;
+        background-color: none;
+        margin-bottom: 40px;
+        width: 70%;
+    }
+    .char-card img{
+        width: 100%;
+    }
+    .c1 , .c2 , .c3 ,.c4 {
+        position: static;
+        width: 100%;
+    }
+       
+}
+@media(max-width:900px){
+    .head ul {
+       
+        display: none;
+    }
+    header nav{
+        display: inherit;
+        text-align: center;
+    }
+    .main{
+        position: inherit;
+        flex-direction: column-reverse;
+        background:url(imgs/clients/shahn-pc-1.JPG)no-repeat;
+        background-size: contain;
+    }
+
+    .img-main{
+        position: static;
+        max-width: 98%;
+        margin: 0 auto;
+    }
+
+    .main-img{
+        position: static;
+        max-width: 100%;
+    }
+    .c1, .c2, .c3, .c4, .c5{
+        position: static;
+        width: 100%;
+    }
+
+
+
+
+   
+}
+
+
+@media (max-width:641px){
+
+    body{
+        font-size: 0.6em;
+    }
+    .content{
+        
+        align-items: center;
+        padding-left: 38px;
+    }
+
+    .head ul{
+        display: none;
+    }
+
+    .main{
+        position: inherit;
+        /* flex-direction: column-reverse; */
+        background:url(imgs/clients/shahan-1.JPG)no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+
+    /* .main-img{
+        position: relative;
+        max-width: 232px;
+        left: calc(100% - 72%);
+    }
+
+    .img-main{
+        position: relative;
+        width: 100%;
+
+    } */
+
+    .main-sec-content{
+        max-width: 70%;
+        padding-top: 60%;
+        margin-left: 6%;
+        margin-bottom: 4%;
+        
+    
+    }
+
+    .card-1{
+        width: 28.25em;
+    }
+   
+}
+@media(max-width:641px){
+    
+
+    body{
+        font-size: 0.9em;
+    }
+
+    .btn{
+        font-size: 2em;
+    }
+
+
+ /* -------------------header---------------- */
+    header{
+        padding: 10px 62px;
+    }
+    header nav {
+        padding: 1.2rem 2rem;
+        display: block;
+    
+        text-align: center;
+    }
+    nav .logo{
+        padding-left: 0;
+
+    }
+
+    .img-main{
+        position: static;
+        max-width: 98%;
+        margin: 0 auto;
+    }
+
+    .main-img{
+        position: static;
+        max-width: 100%;
+    }
+
+    .main{
+        
+       
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    
+    }
+
+   
+
+
+
+ /* --------------programmes section------------------ */
+    .prog-cards{
+        margin-left: 0;
+    }
+
+    .sec-cont{
+        text-align: center;
+    }
+
+    .sec-cont h2{
+        max-width: auto;
+    }
+
+    .sec-cont .content{
+        padding-left: 0;
+        position: relative;
+        justify-content: center;
+    }
+    .c-icon{
+        font-size: 4em;
+        color: white;
+
+    }
+
+    .sec-cont .content h3{
+        font-size: 2.2em;
+    }
+    .c-p{
+        color: white;
+        font-size: 2em;
+        padding-top: 10%;
+
+    }
+
+
+    table {
+       
+        font-size: 1.4em;
+       
+    }
+    table td {
+        padding: 7px;
+    
+    }
+    .card-1 {
+       
+        width: 62%;
+    }
+    /* ------------------------end */
+
+
+
+
+
+
+ /*--------------- clients section------------------------ */
+    .cleint-sec{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .client-para{
+        padding-left: 0;
+        padding: 30px;
+    }
+
+    .client-para p{
+        width: auto;
+    }
+
+    .client-content{
+        position: static;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+       
+        box-shadow: rgb(50 83 93) 0px 50px 100px -20px, #e91e63 0px 30px 60px -30px;
+
+    }
+
+    .client-content .char-card{
+        width: 85%
+    }
+
+    .char-card{
+        position: static;
+        border-radius: 20px;
+        background-color: none;
+        margin-bottom: 15%;
+       
+    }
+    .char-card img{
+        width: 100%;
+    }
+    .c1 , .c2 , .c3 ,.c4 , .c5{
+        position: static;
+        width: 100%;
+    }
+    /* -------------------------end */
+
+
+
+
+
+
+    .wave-parent{
+        height: 25vh;
+    }
+
+
+/* -------------------contact section------------------------------ */
+    .cards-contact h2{
+        margin-left: 0;
+       
+        text-align: center;
+        padding-top: 40px;
+    }
+
+    .cards-contact .content{
+        padding-left: 0;
+    }
+    /* -----------------------------end */
+
+
+
+
+
+
+/*------------------------- footer section--------------------------- */
+    .border{
+        display: none;
+    }
+    .b-blex{
+        display: inherit;
+    }
+    footer{
+        position: relative;
+        width: 100%;
+        background: #fff;
+        min-height: 100px;
+        padding: 20px 50px;
+        /* margin-top: 50px; */
+        flex-direction: column;
+        min-height: 60vh;
+    
+    }
+    .contactme-khaled{
+        margin-top: 36px;
+        padding: 17px 13px 17px 13px;
+        border-top: 1px solid #d79447;
+        border-bottom: 1px solid #d79447;
+        border-radius: 22px;
+       
+
+    }
+    .contac {
+        font-size: 2em;
+        text-transform: capitalize;
+    }
+    .contac-icon{
+        padding-top: 15px;
+    }
+
+    .contac-icon p {
+        display: inline-block;
+        padding-left: 13px;
+    }
+    .contac-icon .email{
+        padding-top: 9px;
+    }
+
+    
+    footer .icon , footer .menu{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 10p 0;
+        padding-top: 10%;
+        flex-direction: column;
+        border-top: 1px solid #d79447;
+        border-radius: 21px;
+       
+    }
+    
+    footer .icon li , footer .menu li{
+        list-style: none;
+        padding-bottom: 20px;
+        
+    }
+    footer .icon li a {
+        font-size: 2em;
+        color: black;
+        margin: 0 10px;
+        display: inline;
+        transition: 0.5s;
+        
+    }
+    footer .menu li a {
+        font-size: 1em;
+        color: black;
+        margin: 0 10px;
+        display: inline;
+        transition: 0.5s;
+        text-decoration: none;
+    
+    }
+    
+    .footer-para{
+        font-size: 1.2em;
+        padding-top: 30px;
+    }
+    .footer-p1{
+        font-size: 2em;
+        text-transform: capitalize;
+    }
+    
+    .footer-a{
+        font-family: "Cairo", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 900;
+        color: black;
+        display: inline-block;
+        margin-top: 20px;
+        background-color: #d79447;
+        padding: 20px;
+        border-radius: 36px;
+        transition: 0.4 ease;
+       
+        
+    }
+    
+    #footer-icon{
+        font-size: 1.5em;
+        padding-left: 11px;
+        /* background-color: #d79447; */
+        padding: 17px 16px 17px 16px;
+        border-radius: 24px;
+        margin-left: -8px;
+        margin-top: 0px;
+        transition: 0.4 ease;
+       
+    }
+    .icon i{
+        color: firebrick;
+    }
+    .arrow-icon{
+        font-size: 2.5em;
+        list-style: none;
+        text-decoration: none;
+        text-align: center;
+        padding-top: 6px;
+    }
+        
+    
+    .footer-a:hover , #footer-icon:hover{
+        transform: scale(1.3);
+    
+    }
+    
+    /* ------------------end of footer section */
+    
+
+
+
+    
+
+}
+@media(max-width:430px){
+    body{
+        font-size: 0.7em;
+    }
+    
+}
+@media(max-width:300px){
+    body{
+        font-size: 10px;
+
+    }
+
+    header{
+        padding: 10px 55px;
+        text-align: center;
+    }
+    .btn {
+        font-size: 1.3em;
+    }
+
+    /* .main-img{
+        max-width: 50%;
+    } */
+    
+}
+
